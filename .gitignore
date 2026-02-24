@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Secrets
+.env
+.flaskenv
+
+# Streamlit
+.streamlit/
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Data
+*.csv
+*.xlsx
+*.xls
+!products_metadata.csv
+!sales_data.csv
+
+# Test files
+test_dns.py
+test_mongo.py
+
+S
+# Windows batch files
+*.bat
+
+# IDE
+.vscode/
+.idea/
+```
